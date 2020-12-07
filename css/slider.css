@@ -1,0 +1,117 @@
+.single-hero-item {
+	height: 703px;
+	padding-top: 220px
+}
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center
+}
+@media(min-width:1200px) {
+	.container {
+		max-width: 1176px
+	}
+}
+.hero-text h1 {
+	font-size: 90px;
+	color: #fff;
+	font-weight: 700;
+	position: relative;
+	opacity: 0;
+	top: 70px !important;
+}
+.single-hero-item {
+	height: 553px;
+	padding-top: 120px
+}
+
+.hero-text h1 {
+	font-size: 50px;
+	color: #fff;
+	font-weight: 700;
+	position: relative;
+	opacity: 0;
+	top: 50px
+}
+
+.hero-text p {
+	color: #fff;
+	margin-bottom: 30px;
+	position: relative;
+	opacity: 0;
+	top: 70px !important;
+}
+
+.hero-text .primary-btn {
+	position: relative;
+	opacity: 0;
+	top: 60px !important;
+}
+
+.hero-items .owl-nav button[type=button] {
+    width: 36px;
+    height: 46px;
+    background: #1f2227;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.hero-items .owl-nav button[type=button]:hover {
+	background: #feeb7c;
+}
+
+.hero-items .owl-nav button[type=button].owl-next {
+	left: auto;
+	right: 0px
+}
+
+.hero-items .owl-item.active .hero-text h1,
+.hero-items .owl-item.active .hero-text p,
+.hero-items .owl-item.active .hero-text .primary-btn {
+	top: 0;
+	opacity: 1
+}
+.primary-btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 22px 55px;
+    color: #060606;
+    background: #cda04d;
+    letter-spacing: .5px;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+}
+.primary-btn:hover{
+	color: #060606;
+}
+@media only screen and (max-width:767px) {
+	.hero-text h1 {
+		font-size: 60px
+	}
+	.hero-items .owl-nav button[type=button] {
+		left: 0;
+		width: 40px;
+		height: 40px;
+		font-size: 20px;
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px)
+	}
+	.hero-items .owl-nav button[type=button].owl-next {
+		right: 0
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+	.hero-text h1 {
+		font-size: 40px
+	}
+}
+
